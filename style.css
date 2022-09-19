@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  width: 80%;
+  margin: auto;
+  background-color: beige;
+}
+
+.fel {
+  background-color: yellow;
+  border-radius: 0px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 320px;
+  margin: auto;
+}
+
+.light {
+  border: 1px solid;
+  border-radius: 40px;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.le {
+  background-color: green;
+}
